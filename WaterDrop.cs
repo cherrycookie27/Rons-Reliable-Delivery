@@ -1,3 +1,6 @@
+//The code for the games watergun. I struggled with making the bullet shoot from the right direction and keep it moving until it hit something, but I got it 
+//done well enough in the end.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,7 +24,8 @@ public class WaterDrop : MonoBehaviour
         }
     }
 
-    // Function to set the direction the player is facing
+    //Function to set the direction the player is facing, the rest of this was done in the players movement script. I would nowdays do this a bit better, 
+    //removing the unnecessary bool from it, but this was the best I was able to do as a beginner with a time limit.
     public void SetFacingDirection(bool facingRight)
     {
         isFacingRight = facingRight;
