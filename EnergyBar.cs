@@ -1,3 +1,6 @@
+//The code for the energybar the player had. The idea was, that as the player could have an energy system as the player character was 
+//a robot and the energybar could be used to build more tension to move forward.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +26,7 @@ public class EnergyBar : MonoBehaviour
     {
         if (currentTime > 0)
         {
+            //As time went forward the energy kept being reduzed from the slider. 
             currentTime -= Time.deltaTime;
             UpdateSlider();
         }
@@ -32,6 +36,7 @@ public class EnergyBar : MonoBehaviour
         }
     }
 
+    //EnergyBall collectibles were used to add time to the slider.
     public void CollectibleCollected()
     {
         currentTime += timePerCollectible;
