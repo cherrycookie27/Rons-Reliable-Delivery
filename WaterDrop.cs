@@ -24,7 +24,7 @@ public class WaterDrop : MonoBehaviour
         }
     }
 
-    //Function to set the direction the player is facing, the rest of this was done in the players movement script. I would nowdays do this a bit better, 
+    //Function to set the direction the player is facing. I would nowdays do this a bit better, 
     //removing the unnecessary bool from it, but this was the best I was able to do as a beginner with a time limit.
     public void SetFacingDirection(bool facingRight)
     {
