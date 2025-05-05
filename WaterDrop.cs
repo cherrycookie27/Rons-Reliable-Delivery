@@ -1,4 +1,4 @@
-//The code for the games watergun. I struggled with making the bullet shoot from the right direction and keep it moving until it hit something, but I got it 
+//The code for the games watergun bullets. I struggled with making the bullet shoot from the right direction and keep it moving until it hit something, but I got it 
 //done well enough in the end.
 
 using System.Collections;
